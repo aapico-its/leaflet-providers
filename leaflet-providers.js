@@ -679,6 +679,23 @@
 				white: 'white',
 				plurality: 'plural'
 			}
+		},
+		POWERMAP: {
+			// POWERMAP (http://www.powermap.in.th/)
+			// POWERMAP is product of AAPICO ITS Company Limited.
+			// The map covers Thailand and are rendered in both Thai and English language.
+			url: 'https://tile.powermap.in.th/osm/{variant}/{z}/{x}/{y}.png?key=test2',
+			options: {
+				attribution: '<a href="http://www.powermap.in.th">POWERMAP</a>',
+				// Bounds for Thailand
+				bounds: [[0, 90], [30, 120]]
+			},
+			variants: {
+				v1en: 'v1/en',
+				v1th: 'v1/th',
+				v2en: 'v2/en',
+				v2th: 'v2/th'
+			}
 		}
 	};
 

@@ -3,7 +3,7 @@
 
 	var map = L.map('map', {
 		zoomControl: false,
-	}).setView([48, -3], 5);
+	}).setView([13, 100], 5);
 
 	function escapeHtml (string) {
 		return string
